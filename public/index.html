@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stark Industries | Sign In</title>
+  </head>
+  <body>
+    <div class="min-h-screen bg-gray-100 py-10 flex flex-col">
+      <!-- Heading -->
+      <div class="text-center">
+        <h1 class="text-4xl uppercase font-bold text-gray-700">
+          Stark Industries
+        </h1>
+        <p class="mt-2 text-gray">
+          Welcome, sign in with your
+          <i class="font-bold text-gray-700">stark-tech credentials </i>below
+        </p>
+      </div>
+
+      <!-- Sign in form -->
+      <form action="#" class="p-12 bg-white mx-auto my-10 shadow-sm rounded">
+        <div class="space-y-6 mb-2">
+          <div>
+            <label for="email" class="font-medium">Email</label>
+            <input
+              type="email"
+              class="border rounded w-full py-2 px-4 mt-2 focus:outline-none focus:ring-1 focus:ring-gray-700 focus:ring-opacity-50"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div>
+            <label for="password" class="font-medium">Password</label>
+            <input
+              type="password"
+              class="border rounded w-full py-2 px-4 mt-2 focus:outline-none focus:ring-1 focus:ring-gray-700 focus:ring-opacity-50"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div>
+            <button
+              class="bg-black text-white w-full py-3 font-bold rounded shadow-sm hover:bg-gray-200 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-opacity-50"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+        <!-- Remember me and Forgot password -->
+        <div class="flex items-center">
+          <input type="checkbox" class="mr-1" id="remember" name="remember" />
+          <label for="remember">Remember me</label>
+          <a href="#" class="ml-auto inline-block text-gray-700 font-thin"
+            >Forgot password?</a
+          >
+        </div>
+        <!-- Form footer -->
+        <div class="bg-gray-50 -ml-12 -mr-12 -mb-12 mt-8 text-center py-4">
+          <div class="mb-5">
+            <small
+              >Don't have an account?
+              <a href="#" class="text-gray-700">Join us today</a>
+            </small>
+          </div>
+        </div>
+        <!-- Powered by TailwindCSS -->
+        <div class="bg-gray-200 -ml-12 -mr-12 -mb-12 mt-8 text-center py-4">
+          <div><i class="text-sm">Powered By TailwindCSS</i></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
